@@ -99,8 +99,8 @@ jobs:
         artifactoryService: "JfrogArtifactory"
         buildName: 'jfrog-build-info-test'
         buildNumber: '$(Build.BuildNumber)'
-      env:
-        HTTPS_PROXY: "http://52.164.215.137:80"
+#      env:
+#        HTTPS_PROXY: "http://52.164.215.137:80"
 
 #    - task: Bash@3
 #      inputs:
