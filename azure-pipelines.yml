@@ -95,13 +95,13 @@ jobs:
     - task: JFrog.jfrog-artifactory-vsts-extension.artifactory-dotnet.ArtifactoryDotnetCore@1
       displayName: 'Artifactory .NET restore'
       inputs:
-        artifactoryService: "JfrogArtifactory"
-        targetResolveRepo: 'nuget'
+        artifactoryService: 'JfrogArtifactory'
+        targetResolveRepo: 'customer-experience-management-nuget-virtual'
         rootPath: StaticContentPages.sln
         noNuGetCache: true
         verbosityRestore: Normal
         collectBuildInfo: true
-
+        
     - task: ArtifactoryPublishBuildInfo@1
       #enabled: ${{ parameters.enabled }}
       displayName: "Send build info to JFrog"
