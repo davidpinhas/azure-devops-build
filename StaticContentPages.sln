@@ -4,8 +4,6 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{C32D58DD-C9B9-4A89-9039-231EC8025FCB}") = "StaticContentPages", "StaticContentPages.csproj", "{E0F6BCB0-14F7-4BF0-B99F-82D42FD7D711}"
 EndProject
-Project("{C32D58DD-C9B9-4A89-9039-231EC8025FCB}") = "StaticContentPages.Tests", "StaticContentPages.Tests.csproj", "{2BAE4B6C-CEF7-4245-B0FD-50CFAA1A0A18}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
